@@ -6,6 +6,7 @@ module.exports = {
   },
   pathPrefix: "/restaurant",
   plugins: [
+    `gatsby-plugin-less`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
