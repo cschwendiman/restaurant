@@ -14,7 +14,7 @@ const Item = ({ name, qty, colors = [] }) => {
 Item.propTypes = {
     name: PropTypes.string.isRequired,
     qty: PropTypes.string.isRequired,
-    colors: PropTypes.array.isRequired,
+    colors: PropTypes.array,
 }
   
 export default Item

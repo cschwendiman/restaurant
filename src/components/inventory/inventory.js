@@ -22,6 +22,7 @@ const Inventory = ({ items }) => {
 
     return (
         <div className={'inventory'}>
+            <h2>Inventory</h2>
             <div className={'filters'}>
                 {Object.keys(filters).map(filter => {
                     return (<Filter key={filter} name={filter} toggleFilter={toggleFilter} />);
