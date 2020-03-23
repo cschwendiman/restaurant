@@ -1,0 +1,1 @@
+table.blue tbody tr,table.red tbody tr,table.white tbody tr,table.yellow tbody tr{display:none}table.blue tbody tr.blue,table.red tbody tr.red,table.white tbody tr.white,table.yellow tbody tr.yellow{display:table-row}
